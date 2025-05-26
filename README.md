@@ -17,9 +17,15 @@
 
 ## 使用技術（実行環境）
 
+- php:7.4.9
+- Laravel:8.83.29
+- mysql:8.0.26
+
 ## ER図
 
-- (test/.dio)に記載
+![ER図](ER.png)
+
+- (test/ER.png)に記載
 
 ## URL
 
