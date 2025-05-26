@@ -1,0 +1,101 @@
+.header__login{
+    display: flex;
+    float: right;
+}
+
+.header__button{
+    background-color: #f6f6f8;
+    color: #e7e3dc;
+    border: 2px solid #e7e3dc;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 0 20px 0 auto;
+    width: 90px;
+    height: 30px;
+    font-family: serif;
+}
+
+.register-form {
+    background-color: #f2ece7;
+    width: 100%;
+    height: 700px;
+}
+
+h2{
+    margin: 0 auto;
+}
+
+.register-form__heading{
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    color: #87867b;
+    font-family: serif;
+    font-size: 23px;
+}
+
+.register-form__content{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.register-form__inner{
+    width: 100%;
+    margin-bottom: 40px;
+    background-color: white;
+    border: 1px solid #d8d8cd;
+    border-radius: 5px;
+}
+
+.form{
+    width: 60%;
+    margin: 60px auto 50px;
+}
+
+.form__group-title{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form__label--item{
+    color: #87867b;
+    font-size: 20px;
+}
+
+.form__group-content{
+    width: 100%;
+}
+
+.form__input--text input{
+    width: 100%;
+    height: 40px;
+    background-color: #f4f4f4;
+    border: white;
+    border-radius: 2px;
+    font-size: 12px;
+    padding-left: 20px;
+    color: #ccccba;
+}
+
+.form__error{
+    width: 100%;
+    height: 20px;
+    color: #a74e4a;
+    text-align: left;
+}
+
+.form__group-button{
+    text-align: center;
+    margin: 40px;
+}
+
+.form__button{
+    width: 80px;
+    height: 28px;
+    background-color: #827569;
+    color: white;
+    border: white;
+    border-radius: 1px;
+    cursor: pointer;
+}

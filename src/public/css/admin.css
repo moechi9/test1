@@ -1,0 +1,239 @@
+.header__logout {
+    display: flex;
+    float: right;
+}
+
+.header__button {
+    background-color: #f6f6f8;
+    color: #e7e3dc;
+    border: 2px solid #e7e3dc;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 0 20px 0 auto;
+    width: 90px;
+    height: 30px;
+    font-family: serif;
+}
+
+.admin-content {
+    width: 100%;
+    height: 700px;
+}
+
+h2 {
+    margin: 0 auto;
+}
+
+.admin-content__heading {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+    color: #87867b;
+    font-family: serif;
+    font-size: 23px;
+}
+
+.admin-content__table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.admin-content__search{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-form__item-input{
+    background-color: #f6f6f8;
+    color: #e7e3dc;
+    border: 2px solid #e7e3dc;
+    height: 40px;
+    width: 310px;
+    border-radius: 1px;
+}
+.search-form__item-gender{
+    background-color: #f6f6f8;
+    color: #827569;
+    border: 2px solid #e7e3dc;
+    height: 40px;
+    width: 85px;
+    border-radius: 1px;
+}
+.search-form__item-category{
+    background-color: #f6f6f8;
+    color: #827569;
+    border: 2px solid #e7e3dc;
+    height: 40px;
+    width: 210px;
+    border-radius: 1px;
+}
+.search-form__item-date{
+    background-color: #f6f6f8;
+    color: #827569;
+    border: 2px solid #e7e3dc;
+    height: 40px;
+    width: 110px;
+    border-radius: 1px;
+}
+.search-form__button-submit{
+    background-color: #827569;
+    color: white;
+    border: #827569;
+    height: 40px;
+    width: 90px;
+    border-radius: 1px;
+}
+.search-form__button-reset{
+    background-color: #f2ece7;
+    color: white;
+    border: #f2ece7;
+    height: 40px;
+    width: 90px;
+    border-radius: 1px;
+}
+
+
+.admin-content__page{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.button__export{
+    background-color: #f6f6f8;
+    color: #827569;
+    border:2px solid #e7e3dc;
+    height: 30px;
+    width: 100px;
+    border-radius: 1px;
+}
+
+svg.w-5.h-5{
+    width: 30px;
+    height: 30px;
+}
+
+.admin-table {
+    border: 1px solid #f2ece7;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+.admin-table__inner {
+    width: 100%;
+}
+
+.admin-table__row {
+    height: 40px;
+    align-items: center;
+}
+
+.admin-table__row:first-of-type{
+    background-color: #827569;
+}
+
+.admin-table__header-span{
+    color: white;
+    text-align: left;
+    margin: 5px 25px;
+}
+
+.admin-list__item{
+    color: #827569;
+    text-align: left;
+    margin: 5px 25px;
+}
+
+.modal-window__button-open {
+    background-color: white;
+    color: #e7e3dc;
+    border:2px solid #e7e3dc;
+    padding: 10px 20px;
+    height: 30px;
+    width: 70px;
+    border-radius: 1px;
+}
+
+.modal-checkbox{
+    display: none;
+}
+
+/* モーダルウィンドウ */
+.modal-window {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 700px;
+    border:2px solid #827569;
+    color: #827569;
+    background-color: white;
+    z-index: 11;
+    padding: 2rem;
+}
+
+.modal-wrapper{
+    width: 70%;
+    margin: 100px auto;
+}
+
+/* 閉じるボタン */
+.modal-window__button-close {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    transform: translate(50%, -50%);
+    border:2px solid #827569;
+    color: #827569;
+    border-radius: 50%;
+    padding: 5px;
+    align-items: center;
+    cursor: pointer; }
+
+.modal-content{
+    width: 100%;
+}
+
+.modal-checkbox:checked+.modal-window {
+    display: block;
+}
+
+.modal-table__inner{
+    width: 100%;
+    font-size: 20px;
+}
+
+.modal-table__row{
+    height: 50px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.modal-table__row:last-of-type{
+    height: 100px;
+}
+
+.modal-window__button-delete{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.delete{
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: #827569;
+    border: #827569;
+}
